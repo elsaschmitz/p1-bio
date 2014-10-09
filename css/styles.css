@@ -1,12 +1,13 @@
 /* Your Website Styles */
 body {
 	background: url("../img/bg.png");
+	color: #FFFFFF
 }
 
 h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background: red;
-	border: 10px solid black;
+	background: #000000;
+	border: 10px solid #FFFFFF;
 	text-align: center;
 }
 
@@ -23,16 +24,21 @@ p{
 	background: url("../img/grid-bg.png") repeat-y;
 }
 
-#leadin {
-	color: white;
-	background: teal;
-}
-
 #name {
-	color: blue;
+	color: #FFFFFF;
 }
 
 .subhead {
 	font-style: italic;
 	margin-left: 30px;
 }
+
+/*Color Scheme
+
+#A8FEFF
+#FFE0E4
+#FFAFA
+#FEEBCD
+#B4FDB9
+
+*/
