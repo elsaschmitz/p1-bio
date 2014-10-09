@@ -1,7 +1,41 @@
 /* Your Website Styles */
+body {
+	background: url("../img/bg.png");
+}
 
+h1 {
+	font-family: 'Lobster', cursive;
+	background: red;
+	width: 300px;
+	padding: 10px;
+	border: 10px solid black;
+	margin: 100px;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+}
+
+p{
+	line-height: 36px
+}
 
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+#leadin {
+	color: white;
+	background: teal;
+}
+
+#name {
+	color: blue;
+}
+
+.subhead {
+	font-style: italic;
+	margin-left: 30px;
 }
