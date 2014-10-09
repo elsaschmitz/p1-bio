@@ -4,12 +4,9 @@ body {
 }
 
 h1 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	background: red;
-	width: 300px;
-	padding: 10px;
 	border: 10px solid black;
-	margin: 100px;
 	text-align: center;
 }
 
