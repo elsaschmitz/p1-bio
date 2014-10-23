@@ -1,27 +1,63 @@
 /* Your Website Styles */
 body {
 	background: url("../img/bg.png");
-	color: #FFFFFF
+	background-size: cover;
+	background-repeat: none;
+	background-color: #268388;
 }
 
 h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	background: #000000;
-	border: 10px solid #FFFFFF;
-	text-align: center;
+	font-size: 22px;
+	color: #E8504D;
 }
 
 h3 {
-	color: red;
+	text-align: center;
+	color: #553631;
+	font-size: 20px;
 }
 
 p{
-	line-height: 36px
+	line-height: 36px;
+	font-family: 'Enriqueta', serif;
+	font-size: 12px;
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: center;
+}
+
+ul {
+	font-family: 'Enriqueta', serif;
+	font-size: 12px;
+	line-height: 13px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	padding: 20px 60px 20px 20px;
+}
+
+li.a {
+
 }
 
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10%;
+	margin-top: 20px;
+	padding: 0 15px;
 }
 
 #name {
@@ -30,15 +66,25 @@ p{
 
 .subhead {
 	font-style: italic;
-	margin-left: 30px;
+	font-size: 18px;
+	color: #553631;
 }
 
-/*Color Scheme
+/* IDs */
+#title {
+	text-align: center;
+	width: 98%;
+	opacity: 0.8;
+}
 
-#A8FEFF
-#FFE0E4
-#FFAFA
-#FEEBCD
-#B4FDB9
+#bodylink {
+	padding: 0;
+}
 
+/* Color Scheme
+#553631
+#268388
+#E8504D
+#ECEEB6
+#FFA152
 */
